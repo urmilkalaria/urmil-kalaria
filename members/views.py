@@ -6,6 +6,6 @@ from django.template import loader, Template
 from UK_Profile.settings import TEMPLATE_DIRS
 
 def index(request):
-    index_html = loader.get_template(TEMPLATE_DIRS+'index.html')
+    index_html = loader.get_template(TEMPLATE_DIRS+'/index.html')
     return HttpResponse(index_html.render())
 # Create your views here.

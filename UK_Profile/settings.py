@@ -127,7 +127,7 @@ STATICFILES_DIRS = [
 ]
 
 TEMPLATE_DIRS = (
-    os.path.join(BASE_DIR, '/templates/assets/')
+    os.path.join(BASE_DIR, '/templates/assets')
 )
 
 django_heroku.settings(locals())
