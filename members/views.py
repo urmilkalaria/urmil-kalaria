@@ -3,7 +3,7 @@ from unittest import loader
 from django.shortcuts import render
 from django.http import HttpResponse
 from django.template import loader, Template
-from UK_Profile.settings import BASE_DIR, TEMPLATE_DIRS
+from UK_Profile.settings import BASE_DIR
 import os
 def index(request):
     path = os.path.join(BASE_DIR, 'members/templates/assets/index.html')
