@@ -1,1 +1,1 @@
-web: gunicorn members.wsgi --log-file -
+web: gunicorn UK_Profile.wsgi --log-file -
