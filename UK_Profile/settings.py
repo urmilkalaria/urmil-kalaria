@@ -24,7 +24,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'w^7eo4la0ohs%6v*3qbxt-lqge3)#q_ht0pl0vtfl8w@jav58j'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['127.0.0.1', 'urmil-kalaria.herokuapp.com']
 
